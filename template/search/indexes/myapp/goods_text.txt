@@ -1,0 +1,3 @@
+{{ object.goodname }} # 根据商品的名字j建立索引
+{{ object.detail }} # 根据商品的简介建立索引
+{{object.unit}}

@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>天天生鲜-密码找回</title>
+    
+	<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+
+    
+    <script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+
+</head>
+<body>
+
+
+
+
+
+    <div class="login_top clearfix">
+		<a href="/" class="login_logo"><img src="/static/images/logo02.png"></a>
+	</div>
+
+	<div class="login_form_bg">
+		<div class="login_form_wrap clearfix">
+			<div class="login_banner fl"></div>
+			<div class="slogan fl">日夜兼程 · 急速送达</div>
+			<div class="login_form fr">
+				<div class="login_title clearfix">
+					<h1>密码找回</h1>
+					<a href="#">首页</a>
+				</div>
+				<div class="form_input">
+					<form method="post" action= "{% url 'rx:wangji' %}">
+
+						<input type="text" name="username" id="username" class="name_input" value="" placeholder="请输入用户名或者邮箱">
+						<div class="user_error">输入错误</div>
+						<input type="submit" value="发送邮箱验证码" class="input_submit">
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>		
+		</div>
+		<p>CopyRight © 2016 北京******技术有限公司 All Rights Reserved</p>
+		<p>电话：010-*******    京ICP备18051957号-1</p>
+	</div>
+
+
+</body>
+</html>
